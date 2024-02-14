@@ -48,12 +48,18 @@
     background-color: white;
     
 }
+.flexFour{
+    display: flex;
+    gap: .4em;
+
+}
 .innerFooter{
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
     padding-top: .5em;
+    position: fixed;
 }
 .image{
     width: 10%;
